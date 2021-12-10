@@ -1,9 +1,11 @@
 package model;
 
 public class Presents {
+	boolean packed=false;
+	String name;
 
-	public Presents() {
-		// TODO Auto-generated constructor stub
+	public Presents(String intu) {
+		name=intu;
 	}
 
 }
